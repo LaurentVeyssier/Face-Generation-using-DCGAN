@@ -4,10 +4,14 @@ In this project, I define and train a DCGAN on a dataset of faces in order to ge
 
 ## Installation
 
-Download and run the notebook (PyTorch).
-The model is trained using pre-processed CelebA dataset of faces (64x64x3 images).
+Download and run the notebook "dlnd_face_generation.ipynb" (PyTorch).
+The model is trained using pre-processed CelebA dataset of faces (64x64x3 images). The Generator is trained to generate 32x32 RGB faces.
 
 The dataset can be downloaded from https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5be7eb6f_processed-celeba-small/processed-celeba-small.zip.
+
+## Variant
+
+The alternative notebook "dlnd_face_generation-64x64.ipynb" comes as a variant generating 64x64 RGB faces. It uses the same dataset and resources.
 
 ## Content
 
@@ -22,3 +26,11 @@ The dataset can be downloaded from https://s3.amazonaws.com/video.udacity-data.c
 - Define Optimizers
 - Train the model
 - Generate samples from training
+
+## Training
+
+The training was done on GPU which is recommended.
+
+## Results
+
+![](Generated_faces.png)
