@@ -9,6 +9,8 @@ The model is trained using pre-processed CelebA dataset of faces (64x64x3 images
 
 The dataset can be downloaded from https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5be7eb6f_processed-celeba-small/processed-celeba-small.zip.
 
+The notebook uses some validation helpers located in the file "problem_unittests.py". It is optional and not required to run the model.
+
 ## Variant
 
 The alternative notebook "dlnd_face_generation-64x64.ipynb" comes as a variant generating 64x64 RGB faces. It uses the same dataset and resources.
