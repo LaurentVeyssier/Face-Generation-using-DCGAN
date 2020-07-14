@@ -33,7 +33,8 @@ The training was done on GPU which is recommended.
 
 ## Results
 
+32x32 samples:
 ![32x32 samples](Generated_faces_32x32.png)
 
-
+64x64 samples:
 ![64x64 samples](Generated_faces.png)
